@@ -1,0 +1,107 @@
+.post {
+  width: 60%;
+  margin: auto;
+}
+/* .hrPost{
+  margin: 50px auto 50px;
+} */
+.post .container {
+  width: 100%;
+  direction: rtl;
+}
+.post .container .posts {
+  background-color: var(--post-background-color);
+  border-radius: 15px;
+  padding: 20px 40px;
+  margin-bottom: 20px;
+}
+.post .container .posts .header-posts img {
+  width: 7%;
+  border-radius: 50%;
+  background-size: cover;
+}
+.post .container .posts .header-posts {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.post .container .posts .header-posts .content-text {
+  padding-right: 20px;
+  color: var(--p-color);
+}
+.post .container .posts .header-posts .content-text h4 {
+  font-size: 30px;
+}
+.post .container .posts .header-posts .content-text p {
+  opacity: 0.6;
+  direction: initial;
+}
+
+.post .container .posts .body-posts {
+  display: flex;
+  flex-direction: column;
+  font-size: 25px;
+  color: var(--p-color);
+  margin-bottom: 10px;
+}
+.post .container .posts .body-posts label {
+  margin-bottom: 10px;
+  overflow: hidden;
+  /* text-overflow: ellipsis; */
+}
+.post .container .posts .body-posts img {
+  width: 100%;
+  height: 300px;
+  margin: auto;
+  background-size: cover;
+  border-radius: 10px;
+  background-size: cover;
+}
+.post .container .posts .publish-comment {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  margin: 15px 0;
+}
+.post .container .posts .publish-comment input {
+  background-color: transparent;
+  border: 2px solid var(--input-border);
+  color: var(--p-color);
+  font-size: 20px;
+  padding: 0 20px 0 40px;
+  height: 45px;
+}
+.post .container .posts .publish-comment button {
+  position: absolute;
+  background-color: transparent;
+  left: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.post .container .posts .publish-comment button i {
+  color: var(--input-border);
+  cursor: pointer;
+  font-size: 30px;
+}
+.post .container .posts .footer-posts {
+  color: var(--p-color);
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+.post .container .posts .footer-posts .content-comment {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* cursor: pointer; */
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.post .container .posts .footer-posts .content-comment label {
+  flex: 1;
+  cursor: pointer;
+  padding-right: 10px;
+}

@@ -1,0 +1,103 @@
+.mainPosts {
+  width: 80%;
+}
+.mainPostsFull {
+  width: 100%;
+}
+.mainPosts .container {
+  width: 95%;
+  margin: 20px auto 10px;
+  direction: rtl;
+}
+.mainPosts .container .publish-post {
+  background-color: var(--post-background-color);
+  border-radius: 15px;
+  padding: 20px 40px;
+  width: 60%;
+  margin: auto;
+}
+.mainPosts .container .publish-post h4 {
+  font-size: 25px;
+  color: var(--input-border);
+  /* margin: 20px 40px; */
+  padding-bottom: 10px;
+}
+.mainPosts .container .publish-post .content-post {
+  background-color: var(--comment-background-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+}
+.mainPosts .container .publish-post .content-post img {
+  width: 5%;
+  border-radius: 50%;
+}
+.mainPosts .container .publish-post .content-post input {
+  flex: 1;
+  color: var(--p-color);
+  font-size: 18px;
+  padding: 0 10px 0 0;
+  background-color: transparent;
+}
+.mainPosts .container .publish-post .footer-post {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* margin-top: 20px; */
+}
+.mainPosts .container .publish-post .image-post {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.mainPosts .container .publish-post .image-post img {
+  width: 25%;
+}
+.mainPosts .container .publish-post .footer-post .updownimage {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+  position: relative;
+}
+.mainPosts
+  .container
+  .publish-post
+  .footer-post
+  .updownimage
+  input[type="file"] {
+  display: none;
+}
+.mainPosts .container .publish-post .footer-post .updownimage label {
+  color: var(--p-color);
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+.mainPosts .container .publish-post .footer-post .updownimage i {
+  font-size: 30px;
+  flex: 0;
+  padding-left: 10px;
+  color: var(--input-border);
+}
+.mainPosts .container .publish-post .footer-post button {
+  width: 10%;
+  height: 40px;
+  border-radius: 15px;
+  background-color: var(--input-border);
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.mainPosts .container .publish-post .footer-post button i{
+  font-size: 20px;
+  color: var(--post-background-color);
+}
